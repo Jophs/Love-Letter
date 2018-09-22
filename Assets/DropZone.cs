@@ -38,6 +38,13 @@ public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
         {
             d.parentToReturnTo = this.transform;
         }
+
+
+        // If Guard is played, activate GuardEffect
+        if (eventData.pointerDrag.name.Contains("Guard"))
+        {
+            
+        }
     }
 
 
