@@ -58,6 +58,17 @@ public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
             }
 
         }
+<<<<<<< HEAD:Assets/Scripts/DropZone.cs
+=======
+
+
+        // If Guard is played, activate GuardEffect
+        if (eventData.pointerDrag.name.Contains("Guard"))
+        {
+            
+        }
+    }
+>>>>>>> 3f49e19f145913bf009abb93b8ae054293121428:Assets/DropZone.cs
 
 
     }
