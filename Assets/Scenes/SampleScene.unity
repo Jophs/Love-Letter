@@ -529,6 +529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b431f6db0de804cbcf7dc3d9950b8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  guardPlayed: 0
 --- !u!1 &1417310123
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,6 +578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b431f6db0de804cbcf7dc3d9950b8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  guardPlayed: 0
 --- !u!114 &1417310126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -683,7 +685,7 @@ Prefab:
     - target: {fileID: 224340006924307822, guid: 04a7b0fc3f581ef46be1587c35ca2eee,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 436.5
+      value: 441
       objectReference: {fileID: 0}
     - target: {fileID: 224340006924307822, guid: 04a7b0fc3f581ef46be1587c35ca2eee,
         type: 2}
@@ -797,7 +799,7 @@ Prefab:
     - target: {fileID: 224340006924307822, guid: 04a7b0fc3f581ef46be1587c35ca2eee,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 271.5
+      value: 276
       objectReference: {fileID: 0}
     - target: {fileID: 224340006924307822, guid: 04a7b0fc3f581ef46be1587c35ca2eee,
         type: 2}

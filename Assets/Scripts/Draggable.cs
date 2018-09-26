@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 
 public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler {
 
-   
+       
     public Transform parentToReturnTo = null;
 
     public static GameObject cardBeingPlayed;
@@ -15,7 +15,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("OnBeginDrag");
+       // Debug.Log("OnBeginDrag");
 
         cardBeingPlayed = this.gameObject;
         startPosition = transform.position;
@@ -35,7 +35,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log("OnEndDrag");
+        //Debug.Log("OnEndDrag");
 
         // Card is either in hand or tabletop
         this.transform.SetParent(parentToReturnTo);
@@ -47,11 +47,23 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         {
             transform.position = startPosition;
         }
-        
-        
 
         GetComponent<CanvasGroup>().blocksRaycasts = true;
 
         
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
