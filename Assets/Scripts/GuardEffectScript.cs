@@ -31,7 +31,7 @@ public class GuardEffectScript : MonoBehaviour {
 
         if (dropZone.guardPlayed == false)
         {
-            Debug.Log("close panel");
+            //Debug.Log("close panel");
             Panel.SetActive(false);
 
            
