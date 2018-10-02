@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 114322759764928930}
   - component: {fileID: 114767103426327186}
   - component: {fileID: 225320271049824096}
-  - component: {fileID: 114814166009403364}
+  - component: {fileID: 114843001849376490}
   m_Layer: 5
   m_Name: Guard
   m_TagString: Untagged
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_FlexibleWidth: 0
   m_FlexibleHeight: 0
   m_LayoutPriority: 1
---- !u!114 &114814166009403364
+--- !u!114 &114843001849376490
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -260,9 +260,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1825348544348694}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c67edf55f49e70f49ac6b4ebfd279a94, type: 3}
+  m_Script: {fileID: 11500000, guid: 8081bdf81eab137489bae3d505f743ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Panel: {fileID: 1540810322440306, guid: 2ddc0fb5cd8b2c24d9cc8cb978a0f4fc, type: 2}
+  dropZone: {fileID: 0}
 --- !u!114 &114868200406717914
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 
 public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler {
 
-       
+   
     public Transform parentToReturnTo = null;
 
     public static GameObject cardBeingPlayed;
@@ -47,23 +47,11 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         {
             transform.position = startPosition;
         }
+        
+        
 
         GetComponent<CanvasGroup>().blocksRaycasts = true;
 
         
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
