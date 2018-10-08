@@ -13,13 +13,14 @@ public class GuardEffectScript : MonoBehaviour {
 
     void Start()
     {
+        Panel.SetActive(false);
         Panel = GameObject.Find("GuardEffectPanel");
         dropZone = GameObject.Find("Tabletop").GetComponent<DropZone>();
 
     }
 
 
-    void Update()
+    /* void Update()
     {
         if (dropZone.guardPlayed == true)
         {
@@ -36,16 +37,21 @@ public class GuardEffectScript : MonoBehaviour {
 
            
         }
-    }
+    } */
 
 
-    // Show the GuardEffectPanel - in progress..
-    public void showHidePanel()
+    // Show the GuardEffectPanel
+    public void showPanel()
     {
 
         //Debug.Log(dropZone.guardPlayed);
        
+        Panel.SetActive(true);
 
+    }
+
+    public void hidePanel()
+    {
 
     }
 

@@ -6,7 +6,14 @@ using UnityEngine.EventSystems;
 public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPointerExitHandler {
 
     public bool guardPlayed = false;
+    public GuardEffectScript guardEffectSript;
 
+
+
+    public void Start()
+    {
+        guardEffectSript = GameObject.Find("Guard").GetComponent<GuardEffectScript>();
+    }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
@@ -44,15 +51,17 @@ public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
             // If Guard is played, activate GuardEffect
             if (eventData.pointerDrag.name.Contains("Guard") && gameObject.name.Contains("Tabletop")) 
             {
-                guardPlayed = true;
-                Debug.Log(guardPlayed);
+                //guardPlayed = true;
+                //Debug.Log(guardPlayed);
+
+                guardEffectSript.showPanel();
             }
 
-            if (eventData.pointerDrag.name.Contains("Guard") && gameObject.name.Contains("Hand"))
+            /* if (eventData.pointerDrag.name.Contains("Guard") && gameObject.name.Contains("Hand"))
             {
                 guardPlayed = false;
                 Debug.Log(guardPlayed);
-            }
+            } */
 
         }
 
