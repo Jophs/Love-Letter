@@ -50,10 +50,5 @@ public class GuardEffectScript : MonoBehaviour {
 
     }
 
-    public void hidePanel()
-    {
-
-    }
-
 
 }
