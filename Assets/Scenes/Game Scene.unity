@@ -1105,7 +1105,6 @@ GameObject:
   - component: {fileID: 1804067380}
   - component: {fileID: 1804067379}
   - component: {fileID: 1804067378}
-  - component: {fileID: 1804067377}
   m_Layer: 5
   m_Name: AI2 Hand
   m_TagString: Untagged
@@ -1131,19 +1130,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.5, y: 300}
   m_SizeDelta: {x: -606.69, y: 104.92}
   m_Pivot: {x: 0.5, y: 0}
---- !u!114 &1804067377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1804067375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89b431f6db0de804cbcf7dc3d9950b8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  guardPlayed: 0
-  guardEffectSript: {fileID: 0}
 --- !u!114 &1804067378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1211,7 +1197,6 @@ GameObject:
   - component: {fileID: 1838967281}
   - component: {fileID: 1838967280}
   - component: {fileID: 1838967279}
-  - component: {fileID: 1838967278}
   m_Layer: 5
   m_Name: AI3 Hand
   m_TagString: Untagged
@@ -1237,19 +1222,6 @@ RectTransform:
   m_AnchoredPosition: {x: 303.34, y: 148.07}
   m_SizeDelta: {x: -606.69, y: 104.92}
   m_Pivot: {x: 0.5, y: 0}
---- !u!114 &1838967278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1838967276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89b431f6db0de804cbcf7dc3d9950b8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  guardPlayed: 0
-  guardEffectSript: {fileID: 0}
 --- !u!114 &1838967279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1436,7 +1408,6 @@ GameObject:
   - component: {fileID: 2134979253}
   - component: {fileID: 2134979252}
   - component: {fileID: 2134979251}
-  - component: {fileID: 2134979250}
   m_Layer: 5
   m_Name: AI1 Hand
   m_TagString: Untagged
@@ -1462,19 +1433,6 @@ RectTransform:
   m_AnchoredPosition: {x: -303.3501, y: 148.07}
   m_SizeDelta: {x: -606.69, y: 104.92}
   m_Pivot: {x: 0.5, y: 0}
---- !u!114 &2134979250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2134979248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89b431f6db0de804cbcf7dc3d9950b8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  guardPlayed: 0
-  guardEffectSript: {fileID: 0}
 --- !u!114 &2134979251
 MonoBehaviour:
   m_ObjectHideFlags: 0
