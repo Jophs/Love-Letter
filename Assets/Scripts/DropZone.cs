@@ -7,6 +7,7 @@ public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
 
     public bool guardPlayed = false;
     public GuardEffectScript guardEffectSript;
+    public AIPanel aiPanel;
 
 
 
@@ -54,6 +55,7 @@ public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
                 //guardPlayed = true;
                 //Debug.Log(guardPlayed);
 
+                aiPanel.showPanel();
                 guardEffectSript.showPanel();
             }
 
