@@ -19,6 +19,7 @@ public class AIPanel : MonoBehaviour {
     {
 
         Panel.SetActive(true);
+        
 
     }
 }

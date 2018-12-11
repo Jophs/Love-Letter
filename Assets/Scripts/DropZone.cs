@@ -58,6 +58,8 @@ public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
 
                 aiPanel.showPanel();
                 guardEffectScript.showPanel();
+
+             
             }
 
             /* if (eventData.pointerDrag.name.Contains("Guard") && gameObject.name.Contains("Hand"))

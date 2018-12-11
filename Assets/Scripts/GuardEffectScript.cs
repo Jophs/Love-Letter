@@ -47,7 +47,7 @@ public class GuardEffectScript : MonoBehaviour {
         //Debug.Log(dropZone.guardPlayed);
        
         Panel.SetActive(true);
-
+      
     }
 
 
