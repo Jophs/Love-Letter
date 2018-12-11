@@ -6,14 +6,15 @@ using UnityEngine.EventSystems;
 public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPointerExitHandler {
 
     public bool guardPlayed = false;
-    public GuardEffectScript guardEffectSript;
+    public GuardEffectScript guardEffectScript;
     public AIPanel aiPanel;
 
 
 
     public void Start()
     {
-        guardEffectSript = GameObject.Find("Guard").GetComponent<GuardEffectScript>();
+        guardEffectScript = GameObject.Find("Guard").GetComponent<GuardEffectScript>();
+        aiPanel = GameObject.Find("Guard").GetComponent<AIPanel>();
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -56,7 +57,7 @@ public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
                 //Debug.Log(guardPlayed);
 
                 aiPanel.showPanel();
-                guardEffectSript.showPanel();
+                guardEffectScript.showPanel();
             }
 
             /* if (eventData.pointerDrag.name.Contains("Guard") && gameObject.name.Contains("Hand"))
