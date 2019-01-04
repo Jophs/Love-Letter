@@ -8,14 +8,14 @@ public class GuardEffectScript : MonoBehaviour {
 
 
     public GameObject Panel;
-    public DropZone dropZone;
+    //public DropZone dropZone;
 
 
     void Start()
     {
         Panel.SetActive(false);
         Panel = GameObject.Find("GuardEffectPanel");
-        dropZone = GameObject.Find("Tabletop").GetComponent<DropZone>();
+        //dropZone = GameObject.Find("Tabletop").GetComponent<DropZone>();
 
     }
 
