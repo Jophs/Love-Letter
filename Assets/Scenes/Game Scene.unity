@@ -2237,6 +2237,63 @@ Prefab:
       propertyPath: m_Pivot.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 224596920430038634, guid: 448ae44c60b8cf04c9f34069ce25af5e,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224596920430038634, guid: 448ae44c60b8cf04c9f34069ce25af5e,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224118071003728664, guid: 448ae44c60b8cf04c9f34069ce25af5e,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224118071003728664, guid: 448ae44c60b8cf04c9f34069ce25af5e,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224155598717984700, guid: 448ae44c60b8cf04c9f34069ce25af5e,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224155598717984700, guid: 448ae44c60b8cf04c9f34069ce25af5e,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114806321725736100, guid: 448ae44c60b8cf04c9f34069ce25af5e,
+        type: 2}
+      propertyPath: m_Text
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114085455752677208, guid: 448ae44c60b8cf04c9f34069ce25af5e,
+        type: 2}
+      propertyPath: m_Text
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114110391227167250, guid: 448ae44c60b8cf04c9f34069ce25af5e,
+        type: 2}
+      propertyPath: m_Text
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840349950063206, guid: 448ae44c60b8cf04c9f34069ce25af5e, type: 2}
+      propertyPath: m_Name
+      value: AI1 Hand
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983741550129980, guid: 448ae44c60b8cf04c9f34069ce25af5e, type: 2}
+      propertyPath: m_Name
+      value: AI2 Hand
+      objectReference: {fileID: 0}
+    - target: {fileID: 1099405149658996, guid: 448ae44c60b8cf04c9f34069ce25af5e, type: 2}
+      propertyPath: m_Name
+      value: AI3 Hand
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 448ae44c60b8cf04c9f34069ce25af5e, type: 2}
   m_IsPrefabAsset: 0
