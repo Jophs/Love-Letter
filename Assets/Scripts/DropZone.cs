@@ -7,14 +7,14 @@ public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
 
     public bool guardPlayed = false;
     public GuardEffectScript guardEffectScript;
-    public AIPanelScript aiPanel;
+    public AIPanelScript aiPanelScript;
 
 
 
     public void Start()
     {
         guardEffectScript = GameObject.Find("Guard").GetComponent<GuardEffectScript>();
-        aiPanel = GameObject.Find("Guard").GetComponent<AIPanelScript>();
+        aiPanelScript = GameObject.Find("Guard").GetComponent<AIPanelScript>();
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -56,7 +56,7 @@ public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
                 //guardPlayed = true;
                 //Debug.Log(guardPlayed);
 
-                aiPanel.showPanel();
+                aiPanelScript.showPanel();
                 guardEffectScript.showPanel();
 
              
